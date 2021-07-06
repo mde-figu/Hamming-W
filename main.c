@@ -6,14 +6,14 @@
 /*   By: mde-figu <mde-figu@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/05 23:40:16 by mde-figu          #+#    #+#             */
-/*   Updated: 2021/07/06 12:52:21 by mde-figu         ###   ########.fr       */
+/*   Updated: 2021/07/06 12:53:34 by mde-figu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdint.h>
 
-int    main(uint64_t x)
+int    hamming_weight(uint64_t x)
 {
 
     const uint64_t m1  = 0x5555555555555555; //binary: 0101...
